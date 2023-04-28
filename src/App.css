@@ -1,0 +1,56 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #26edd0;
+  padding: 20px 0;
+  height: 100vh;
+}
+.containers {
+  /* todo Create Container  */
+  background: gray;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 20px;
+  gap: 10px;
+  border-radius: 5px;
+}
+.option {
+  background: gray;
+  /* background-color: ; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 50vh;
+  gap: 15px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 10px 100px;
+}
+.Box {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  box-shadow: 3px 2px 1px rgba(0, 0, 0, 0.5);
+  height: 100px;
+  color: white;
+  background-color: #26edd0;
+}
+
+input[type="range"]:focus {
+  outline: none;
+}
+
+.option span,
+h2 {
+  font-size: 2em;
+  color: white;
+  font-weight: bold;
+}
+
+.active {
+  background-color: gray;
+}
